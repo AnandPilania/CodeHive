@@ -1,0 +1,28 @@
+
+#cm-suggestions {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	margin: 20px 0;
+	font-size: 13px;
+	font-weight: normal;
+	min-width: 11em;
+	border-radius: 3px;
+	background: #ffffff; 
+	border: 1px solid  #777777;
+	color: #333333;
+	padding:3px 5px 3px 5px;
+
+	-moz-box-shadow: 0 0 10px #777777;
+	-webkit-box-shadow: 0 0 10px #777777;
+	-o-box-shadow: 0 0 10x #777777;
+	box-shadow: 0 0 10px #777777;
+	cursor: pointer;
+	
+}
+
+#cm-suggestions option[selected] {
+	color: #333;
+	border-radius:10px;
+}
